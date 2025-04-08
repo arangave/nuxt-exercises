@@ -1,20 +1,14 @@
-<script setup>
-definePageMeta({
-  layout: 'catalogo'
-})
-</script>
-
 <template>
-  <div class="catalogo-container">
-    <h1>Página de Catálogo</h1>
-    <NuxtLink to="/home">
-      <button class="btn-catalogo">Ir al Inicio</button>
+  <div class="home-container">
+    <h1>Página de Inicio</h1>
+    <NuxtLink to="/catalogo">
+      <button class="btn-home">Ver Catálogo</button>
     </NuxtLink>
   </div>
 </template>
 
 <style scoped lang="scss">
-.catalogo-container {
+.home-container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,12 +18,12 @@ definePageMeta({
 }
 
 h1 {
-  color: rgb(5, 95, 5);
+  color: rgb(25, 79, 97);
   margin-bottom: 1em;
 }
 
-.btn-catalogo {
-  background-color: #2ecc71;
+.btn-home {
+  background-color: #3498db;
   color: white;
   font-size: 1em;
   padding: 0.5em 1em;
@@ -39,3 +33,4 @@ h1 {
   margin-top: 1em;
 }
 </style>
+
