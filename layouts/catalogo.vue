@@ -5,6 +5,7 @@
         <div class="nav-buttons">
           <NuxtLink to="/home"><button class="btn-nav">Inicio</button></NuxtLink>
           <NuxtLink to="/catalogo"><button class="btn-nav">Catálogo</button></NuxtLink>
+          <NuxtLink to="/series-bonitas" class="btn-nav">Series Bonitas</NuxtLink>
         </div>
       </nav>
       <main>
