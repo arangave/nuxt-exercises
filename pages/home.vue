@@ -29,7 +29,6 @@ h1 {
   padding: 0.5em 1em;
   border: none;
   border-radius: 5px;
-  cursor: pointer;
   margin-top: 1em;
 }
 </style>
